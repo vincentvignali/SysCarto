@@ -1,0 +1,86 @@
+{
+  "name": "situation-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@elastic/datemath": "^5.0.3",
+    "@elastic/eui": "^71.1.0",
+    "@emotion/css": "^11.10.5",
+    "@emotion/react": "^11.10.5",
+    "@material-tailwind/react": "^1.2.4",
+    "@monaco-editor/react": "^4.4.6",
+    "@slicknode/stylemapper": "^0.1.2",
+    "@types/node": "^18.0.0",
+    "@zendeskgarden/react-theming": "^8.62.1",
+    "@zendeskgarden/tailwindcss": "^3.0.1",
+    "classnames": "^2.3.2",
+    "d3": "^7.3.0",
+    "dagre": "^0.8.5",
+    "elkjs": "^0.8.2",
+    "focus-visible": "^5.2.0",
+    "graphology": "^0.24.1",
+    "graphology-layout": "^0.6.0",
+    "graphology-layout-force": "^0.2.4",
+    "graphology-layout-forceatlas2": "^0.9.1",
+    "graphology-layout-noverlap": "^0.4.2",
+    "graphology-types": "^0.24.4",
+    "kotatsu": "^0.22.3",
+    "moment": "^2.29.4",
+    "ramda": "^0.28.0",
+    "rand-seed": "^1.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.7.1",
+    "react-scripts": "5.0.0",
+    "react-use": "^17.4.0",
+    "reactflow": "^11.5.2",
+    "ts-node": "^10.9.1",
+    "web-worker": "^1.2.0",
+    "zustand": "^4.1.4"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.1.0",
+    "@types/ramda": "^0.28.0",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@types/tailwindcss": "^3.1.0",
+    "@vitejs/plugin-react": "^3.0.1",
+    "autoprefixer": "^10.4.2",
+    "babel-plugin-named-exports-order": "^0.0.2",
+    "monaco-editor": "^0.34.1",
+    "postcss": "^8.4.21",
+    "postcss-focus-visible": "^8.0.0",
+    "prettier": "^2.8.3",
+    "prettier-plugin-tailwindcss": "^0.2.1",
+    "prop-types": "^15.8.1",
+    "styled-components": "^5.3.6",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.4"
+  },
+  "eslintConfig": {
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      },
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  }
+}

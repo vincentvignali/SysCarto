@@ -1,0 +1,16 @@
+/* See https://tailwindcss.com/docs/guides/create-react-app
+for more information */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-flow__node {
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+@font-face {
+  font-family: "Calps Black";
+  src: url("./fonts/calps/Calps-Black.ttf") format("truetype");
+}
